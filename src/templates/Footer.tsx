@@ -13,13 +13,13 @@ const Footer = () => (
           <Link href="/">Strona Główna</Link>
         </li>
         <li>
-          <Link href="/o-nas">O nas</Link>
+          <Link href="/about">O nas</Link>
         </li>
         <li>
-          <Link href="/dokumenty">Dokumenty</Link>
+          <Link href="/kontakt">Kontakt</Link>
         </li>
         <li>
-          <Link href="https://be-rising.pl">Kreator CV</Link>
+          <Link href="/polityka">Polityka Prywatności</Link>
         </li>
       </CenteredFooter>
     </Section>
