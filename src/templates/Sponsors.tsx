@@ -5,7 +5,7 @@ import { Section } from '@/layout/Section';
 const Sponsors = () => (
   <Section
     title="Nasi klienci już tu pracują"
-    description="Pomogliśmy znaleźć zatrudnienie setkom naszych Klientów, zarówno w małych, lokalnych firmach jak i dużych korporacjach."
+    description="Pomogliśmy znaleźć zatrudnienie setkom naszych Klientów, zarówno w małych, lokalnych firmach jak i dużych korporacjach.Budujemy trwałe partnerstwa oparte na wzajemnym zaufaniu i zrozumieniu. Naszym celem jest nie tylko znalezienie dla Ciebie pracy lub pracownika, ale także wspieranie Cię w osiąganiu długoterminowego sukcesu zawodowego."
   >
     <table className="mx-auto border-collapse">
       <tbody>
