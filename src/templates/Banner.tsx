@@ -7,7 +7,7 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Tworzenie CV nigdy nie było tak łatwe. Wystarczy poświęcić kilka minut używając kreatora CV, aby mieć na biurku gotowy życiorys"
+      title="Aby aplikować na jedno ze stanowisk pracy które mamy w ofercie, stwórz CV za pomocą kreatora CV i prześlij je na nasz adres email."
       subtitle="Kliknij, aby otworzyć kreator CV."
       button={
         <Link href="https://be-rising.pl">
