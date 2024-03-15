@@ -3,27 +3,30 @@ import { Section } from '../layout/Section';
 
 const VerticalFeaturesPolityka = () => (
   <Section
-    title="O nas"
-    description="Naszą główną misją jest tworzenie synergii pomiędzy utalentowanymi jednostkami a przedsiębiorstwami, które poszukują profesjonalistów z pasją i kompetencjami. Nasza agencja pośrednictwa pracy to miejsce, gdzie doświadczenie spotyka się z ambicją, tworząc idealne warunki do rozwoju dla wszystkich zaangażowanych stron."
+    title="Polityka Prywatności"
+    description="Twoja prywatność jest dla nas ważna. Niniejsza Polityka Prywatności wyjaśnia, jakie informacje zbieramy od użytkowników naszej strony internetowej oraz w jaki sposób te dane są wykorzystywane i chronione."
   >
     <VerticalFeatureRow
-      title="Profesjonalizm"
-      description="Nasz zespół składa się z doświadczonych ekspertów, którzy nie tylko posiadają głęboką wiedzę na temat rynku pracy, ale także angażują się w każdy projekt z zaangażowaniem i pasją. Działamy zgodnie z najwyższymi standardami etycznymi, zapewniając uczciwość, transparentność i pełną poufność."
-      image="/assets/images/profesjonalizm.png"
-      imageAlt="Profesjonalizm"
+      title="Jakie informacje zbieramy?"
+      description="Podczas korzystania z naszej strony internetowej możemy zbierać różne rodzaje informacji, w tym:
+
+      Dane osobowe: takie jak imię, nazwisko, adres e-mail, numer telefonu, adres zamieszkania, które użytkownik dobrowolnie podaje w formularzach kontaktowych lub rejestracyjnych.
+      Dane dotyczące ruchu na stronie: takie jak adres IP, informacje o przeglądarce internetowej, czas spędzony na stronie, odwiedzone podstrony, które są gromadzone automatycznie przy użyciu technologii śledzenia, takiej jak pliki cookie."
+      image="/assets/images/feature.svg"
+      imageAlt="Informacje"
     />
     <VerticalFeatureRow
-      title="Indywidualne podejście"
-      description="Rozumiemy, że każdy klient i kandydat ma inne potrzeby i oczekiwania. Dlatego też nasze podejście opiera się na indywidualnym podejściu, które pozwala nam dopasować nasze usługi do konkretnych potrzeb i sytuacji."
-      image="/assets/images/female.png"
-      imageAlt="Indywidualne podejście"
+      title="Jak chronimy Twoje dane?"
+      description="Dbamy o bezpieczeństwo Twoich danych i stosujemy odpowiednie środki techniczne i organizacyjne, aby zapobiec nieautoryzowanemu dostępowi, utracie, uszkodzeniu lub ujawnieniu Twoich danych osobowych."
+      image="/assets/images/feature2.svg"
+      imageAlt="Dane"
       reverse
     />
     <VerticalFeatureRow
-      title="Innowacyjność"
-      description="Świat pracy stale się zmienia, dlatego też nieustannie poszukujemy nowych rozwiązań i metod, które pozwolą nam sprostać wyzwaniom współczesnego rynku. Dążymy do ciągłego doskonalenia naszych procesów, aby zapewnić naszym klientom najlepsze możliwe rezultaty."
-      image="/assets/images/bulb.png"
-      imageAlt="Innowacyjność"
+      title="Pliki cookie"
+      description="Nasza strona internetowa może korzystać z plików cookie i podobnych technologii śledzenia w celu poprawy jakości usług oraz dostosowania ich do potrzeb użytkowników. Użytkownik może zarządzać ustawieniami plików cookie w swojej przeglądarce internetowej."
+      image="/assets/images/feature3.svg"
+      imageAlt="Cookies"
     />
   </Section>
 );
