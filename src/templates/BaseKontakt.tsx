@@ -5,7 +5,7 @@ import { Footer } from './Footer';
 import { HeroKontakt } from './HeroKontakt';
 import { VerticalFeatures } from './VerticalFeatures';
 
-const Kontakt = () => (
+const BaseKontakt = () => (
   <div className="text-gray-600 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <HeroKontakt />
@@ -15,4 +15,4 @@ const Kontakt = () => (
   </div>
 );
 
-export { Kontakt };
+export { BaseKontakt };

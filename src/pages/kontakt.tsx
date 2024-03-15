@@ -1,5 +1,5 @@
-import { Kontakt } from '../templates/BaseKontakt';
+import { BaseKontakt } from '../templates/BaseKontakt';
 
-const Index = () => <Kontakt />;
+const Index = () => <BaseKontakt />;
 
 export default Index;
