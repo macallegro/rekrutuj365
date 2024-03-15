@@ -7,11 +7,11 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title="Tworzenie CV nigdy nie było tak łatwe. Wystarczy poświęcić kilka minut używając kreatora CV, aby mieć na biurku gotowy życiorys"
+      subtitle="Kliknij, aby otworzyć kreator CV."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
-          <Button>Get Started</Button>
+        <Link href="https://be-rising.pl">
+          <Button>Stwórz CV</Button>
         </Link>
       }
     />
