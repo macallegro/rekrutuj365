@@ -1,29 +1,23 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
+import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
-const Footer = () => (
+const HeroKontakt = () => (
   <Background color="bg-gray-100">
-    <Section>
-      <CenteredFooter logo={<Logo />} iconList={<></>}>
-        <li>
-          <Link href="/">Strona Główna</Link>
-        </li>
+    <Section yPadding="py-6">
+      <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="/about">O nas</Link>
         </li>
         <li>
           <Link href="/kontakt">Kontakt</Link>
         </li>
-        <li>
-          <Link href="/polityka">Polityka Prywatności</Link>
-        </li>
-      </CenteredFooter>
+      </NavbarTwoColumns>
     </Section>
   </Background>
 );
 
-export { Footer };
+export { HeroKontakt };

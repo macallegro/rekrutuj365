@@ -1,20 +1,16 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
-import { Banner } from './Banner';
 import { Footer } from './Footer';
-import { Hero } from './Hero';
-import { Sponsors } from './Sponsors';
-import { VerticalFeatures } from './VerticalFeatures';
+import { HeroKontakt } from './HeroKontakt';
+import { VerticalFeaturesKontakt } from './VerticalFeaturesKontakt';
 
-const Base = () => (
+const BaseKontakt = () => (
   <div className="text-gray-600 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
-    <Hero />
-    <VerticalFeatures />
-    <Sponsors />
-    <Banner />
+    <HeroKontakt />
+    <VerticalFeaturesKontakt />
     <Footer />
   </div>
 );
 
-export { Base };
+export { BaseKontakt };

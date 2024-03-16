@@ -1,6 +1,7 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
-  locale: 'en',
+  site_name: 'Rekrutuj365',
+  title: 'Agencja zatrudnienia Rekrutuj365',
+  description:
+    'Agencja pracy Rekrutuj365. Wyślij do nas swoje CV aby znaleźć wymarzoną pracę',
+  locale: 'pl',
 };
