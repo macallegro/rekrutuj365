@@ -24,11 +24,13 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Nowoczesna agencja rekrutacyjna dla\n'}
-            <span className="text-primary-500">ludzi spragnionych sukcesu</span>
+            {'Nowoczesna agencja rekrutacyjna\n'}
+            <span className="text-primary-500">
+              dla ludzi spragnionych sukcesu.
+            </span>
           </>
         }
-        description="Najłatwiejsza droga do znalezienia wymarzonej pracy. Setki ofert pracy, najlepsi pracodawcy."
+        description="Najłatwiejsza droga do znalezienia wymarzonej pracy. Setki ofert pracy, najlepsi pracodawcy. Wyślij nam swoje CV aby poznać oferty pracy."
         button={
           <Link href="/kontakt">
             <Button xl>Napisz do nas</Button>
