@@ -1,6 +1,6 @@
 [build]
-  base = "out"
-  command = "npm run build-prod"
+  build = "out"
+  command = "yarn build"
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
