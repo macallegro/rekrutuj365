@@ -1,5 +1,11 @@
 [build]
   command = "npm run build-prod"
+  base ="/"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
