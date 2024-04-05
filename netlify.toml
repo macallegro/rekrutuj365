@@ -1,12 +1,11 @@
 [build]
-  base    = "/"
-  publish = "dist"
+  publish = "out"
   command = "npm run build-prod"
-
+  
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
+  
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
